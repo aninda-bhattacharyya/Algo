@@ -34,6 +34,10 @@ def on_connect(ws):
     # Set this to tick in full mode
     ws.set_mode(ws.MODE_FULL, [3870465])
 
+    ws.subscribe([408065])
+    # Set this to tick in full mode
+    ws.set_mode(ws.MODE_FULL, [408065])
+
 # Assign the callbacks
 kws.on_tick = on_tick
 kws.on_connect = on_connect

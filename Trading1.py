@@ -8,4 +8,4 @@ print(kite.login_url())
 
 print(kite.request_access_token("tffv1st17mk1wyc2s63rkf9ipa9tjrq2", api_secret))
 
-kite.order_place(tradingsymbol="UNITECH", quantity=1, exchange="NSE", transaction_type="BUY", order_type="MARKET", product="CNC")
+#kite.order_place(tradingsymbol="UNITECH", quantity=1, exchange="NSE", transaction_type="BUY", order_type="MARKET", product="CNC")
